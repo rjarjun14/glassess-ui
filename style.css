@@ -1,0 +1,294 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: rgba(223, 223, 223, 0.897);
+}
+.nevbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-inline: 20px;
+}
+.left{
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nevbar ul{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-between; 
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.nevbar h1{
+
+    font-size: 50px;
+    margin-left: 50px;
+    color: #697bd1;
+
+}
+.icon{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #697bd1;
+    color: white;
+}
+
+.image{
+    width: 50%;
+    height: 800px;
+    background-image: url(./2021-08_face-shape-0250-1366x2048.jpg);
+    background-size: cover;
+    
+}
+
+.section{
+    width: 100%;
+    height: 800px;
+    display: flex;
+   
+   
+       
+}
+.text{
+    width: 50%;
+    height: 800px;
+
+}
+
+
+.part-1{
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #697bd1;
+}
+.bar{
+    width: 100%;
+    height: 50px;
+    background-color: #697bd1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-inline: 130px;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.brdr{
+    width: 1px;
+    height: 30px;
+    background-color: white;
+    
+}
+
+.part-1 h1{
+
+    margin-top: 20px;
+    font-size: 120px;
+    
+}
+.part-1 p{
+
+    margin-top: 10px;
+    font-size: 25px;  
+}
+.part-1 h6{
+    margin-top: 30px;
+    margin-right: 333px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.clr{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -24px;
+    padding-inline: 130px;
+}
+.red{
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.one{
+
+    width: 22px;
+    height: 22px;
+    border-radius: 22px;
+    background-color: rgb(252, 106, 151);
+    
+}
+.pink{
+
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: rgb(250, 106, 219);
+
+}
+.grey{
+
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: #a8a6a7;
+
+}
+.black{
+
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: black;
+
+}
+
+
+.part-2{
+
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 130px;
+    margin-top: 50px;
+
+   
+}
+
+.off{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+
+}
+.off p span{
+    color: #697bd1;
+    font-weight: bold;
+}
+.off p{
+    
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.off div{
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    opacity: 0.6;
+}
+.off div h3{
+    font-size: 50px;
+   
+}
+.box{
+
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+.box .add{
+
+    width: 180px;
+    height: 60px;
+    display: flex;
+    border: 1px solid grey;
+    opacity: 0.8;
+    
+}
+.minus{
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a8a6a7;
+}
+.number{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #a8a6a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button{
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #697acf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    margin-top: 70px;
+    color: #697acf;
+
+}
+
